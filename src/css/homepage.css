@@ -1,0 +1,17 @@
+.homepage-background {
+  background-color: #04060a;
+  background-image: url(/src/img/earth-picture.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 250px 0 100px 0;
+}
+
+.vr-img,
+.mammooth-img {
+  max-width: 500px;
+}
