@@ -1,6 +1,7 @@
 .homepage-background {
   background-color: #04060a;
-  background-image: url(/src/img/earth-picture.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/src/img/earth-picture.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -8,7 +9,7 @@
 h1 {
   color: #fff;
   text-align: center;
-  padding: 250px 0 100px 0;
+  padding: 230px 0 50px 0;
 }
 
 .vr-img,
