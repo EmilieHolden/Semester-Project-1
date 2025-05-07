@@ -22,10 +22,6 @@ button {
   font-family: "DM Sans";
 }
 
-main {
-  background-color: black;
-}
-
 h1 {
   font-size: 25px;
   font-weight: 400;
@@ -46,9 +42,12 @@ p {
   font-weight: 270;
 }
 
+body {
+  background-color: black;
+}
+
 main {
-  margin: 0 auto;
-  min-height: 100vh;
+  margin-bottom: 30px;
 }
 
 /* HEADER AND NAVIGATION*/
@@ -80,8 +79,10 @@ a:hover {
 
 /* FOOTER */
 footer {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .footer-info {
@@ -147,8 +148,4 @@ footer {
     justify-content: end;
     padding-bottom: 15px;
   }
-}
-
-section {
-  background-color: black;
 }
