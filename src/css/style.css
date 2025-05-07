@@ -1,4 +1,10 @@
 @import "./homepage.css";
+@import "./orb.css";
+
+:root {
+  --pri-text-family: "DM Sans";
+  --pri-text-color: #d01b1b;
+}
 
 * {
   box-sizing: border-box;
@@ -16,26 +22,34 @@ button {
   font-family: "DM Sans";
 }
 
+main {
+  background-color: black;
+}
+
 h1 {
-  font-size: 70px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-size: 20px;
 }
-/* 
+
+p {
+  font-size: 20px;
+  font-weight: 270;
+}
+
 main {
-  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
   min-height: 100vh;
 }
-   */
 
 /* HEADER AND NAVIGATION*/
 header {
@@ -93,6 +107,21 @@ footer {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
   nav,
   #menu-checkbox {
     display: none;
@@ -118,4 +147,8 @@ footer {
     justify-content: end;
     padding-bottom: 15px;
   }
+}
+
+section {
+  background-color: black;
 }
