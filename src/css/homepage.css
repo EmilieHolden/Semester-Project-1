@@ -20,16 +20,13 @@
   background-color: #fff;
   height: fit-content;
   padding: 20px;
-  margin: 4rem;
+  margin: 2rem;
 }
 
 .content-grid {
   display: flex;
   justify-content: center;
-}
-
-p {
-  padding: 0 20px;
+  gap: 10px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -38,12 +35,13 @@ p {
     font-size: 50px;
   }
 
+  .science-section {
+    margin: 1rem;
+  }
+
   .content-grid {
     display: flex;
     flex-direction: column;
-  }
-
-  p {
-    padding: 10px 0;
+    justify-content: center;
   }
 }
