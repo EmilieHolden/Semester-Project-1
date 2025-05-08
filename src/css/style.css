@@ -1,5 +1,7 @@
 @import "./homepage.css";
 @import "./orb.css";
+@import "./explore.css";
+@import "./visit.css";
 
 :root {
   --pri-text-family: "DM Sans";
@@ -28,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   padding-bottom: 10px;
 }
@@ -116,11 +118,11 @@ footer {
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   nav,

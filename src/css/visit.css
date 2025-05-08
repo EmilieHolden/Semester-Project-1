@@ -1,0 +1,36 @@
+.visit-container {
+  background-color: #fff;
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hours-container {
+  color: #fff;
+  background-color: #3a5a7d;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.visit-img {
+  max-width: 300px;
+}
+
+.visit-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  gap: 30px;
+}
+
+.location-content {
+  display: flex;
+  gap: 10px;
+}
+
+.h2-p-visit {
+  max-width: 215px;
+}
