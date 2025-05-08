@@ -142,6 +142,7 @@ footer {
     position: absolute;
     right: 0px;
     background-color: #fff;
+    z-index: 2;
   }
 
   .hamburger-icon {
