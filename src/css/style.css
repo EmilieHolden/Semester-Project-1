@@ -129,6 +129,12 @@ footer {
     font-size: 17px;
   }
 
+  header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   nav,
   #menu-checkbox {
     display: none;
@@ -147,12 +153,11 @@ footer {
     right: 0px;
     background-color: #fff;
     z-index: 2;
+    margin-top: 70px;
   }
 
   .hamburger-icon {
-    font-size: 35px;
-    display: flex;
-    justify-content: end;
-    padding-bottom: 15px;
+    font-size: 40px;
+    display: block;
   }
 }
