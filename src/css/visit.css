@@ -9,9 +9,9 @@
 }
 
 .hours-container {
-  color: #fff;
-  background-color: #3a5a7d;
-  max-width: 300px;
+  color: #000000;
+  background-color: rgb(174, 174, 214);
+  max-width: 430px;
   padding: 20px;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 10px;
-  gap: 30px;
+  gap: 20px;
 }
 
 .location-content {
@@ -33,4 +33,8 @@
 
 .h2-p-visit {
   max-width: 215px;
+}
+
+.h2-admission {
+  margin-top: 20px;
 }
