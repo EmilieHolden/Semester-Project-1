@@ -1,16 +1,16 @@
 .visit-container {
-  background-color: #fff;
+  display: flex;
   max-width: fit-content;
   margin: auto;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  gap: 10px;
 }
 
 .hours-container {
   color: #000000;
-  background-color: rgb(174, 174, 214);
+  background-color: #aeaed6;
   max-width: 430px;
   padding: 20px;
 }
@@ -20,9 +20,10 @@
 }
 
 .visit-content {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
+  padding: 20px;
   gap: 20px;
 }
 
@@ -37,4 +38,27 @@
 
 .h2-admission {
   margin-top: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+  .visit-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 0;
+  }
+
+  .visit-content {
+    max-width: fit-content;
+    margin: auto;
+  }
+
+  .location-content {
+    display: block;
+  }
+
+  .visit-img {
+    min-width: 200px;
+  }
 }

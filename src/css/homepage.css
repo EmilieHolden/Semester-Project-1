@@ -40,18 +40,18 @@
   }
 
   .science-img {
-    min-width: 350px;
+    min-width: 280px;
   }
 
   .science-section {
     max-width: fit-content;
-    margin: 10px auto;
+    margin: 10px;
   }
 
   .content-grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 350px;
+    max-width: 400px;
   }
 }
