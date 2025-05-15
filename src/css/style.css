@@ -6,6 +6,8 @@
   --pri-font-size: 20px;
   --galaxy-blue: #0ff;
   --galaxy-violet: #ee82ee;
+  --black: #000;
+  --white: #fff;
 }
 
 * {
@@ -48,7 +50,7 @@ body {
 
 /* HEADER AND NAVIGATION*/
 header {
-  background-color: #fff;
+  background-color: var(--white);
   padding: 40px 50px 0 50px;
   margin-bottom: 50px;
 }
@@ -81,7 +83,7 @@ a:hover {
 
 /* FOOTER */
 footer {
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
@@ -116,7 +118,7 @@ footer {
     var(--galaxy-violet) 51%,
     var(--galaxy-blue) 100%
   );
-  color: #000;
+  color: var(--black);
   margin: 30px auto;
   padding: 12px 40px;
   text-align: center;
@@ -130,7 +132,7 @@ footer {
 
 .visit-us-button:hover {
   background-position: right center;
-  color: #000;
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -184,7 +186,7 @@ footer {
   nav {
     position: absolute;
     right: 0px;
-    background-color: #fff;
+    background-color: var(--white);
     z-index: 2;
     top: 0;
     margin-top: 111px;

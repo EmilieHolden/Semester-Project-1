@@ -7,7 +7,7 @@
 }
 
 .hours-container {
-  color: #000000;
+  color: var(--black);
   background-color: #aeaed6;
   max-width: 430px;
   padding: 40px 40px 70px 40px;
@@ -18,7 +18,7 @@
 }
 
 .visit-content {
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   padding: 40px 40px 70px 40px;

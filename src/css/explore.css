@@ -1,5 +1,5 @@
 .explore-exhib-container {
-  background-color: #fff;
+  background-color: var(--white);
   max-width: fit-content;
   margin: 0 auto;
   padding: 40px 40px 70px 40px;

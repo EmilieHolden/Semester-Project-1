@@ -1,7 +1,7 @@
 .h1-homepage {
   font-size: 70px;
   font-weight: 300;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   padding: 80px 0 0 0;
 }
@@ -22,7 +22,7 @@
 }
 
 .science-section {
-  background-color: #fff;
+  background-color: var(--white);
   height: fit-content;
   padding: 20px 40px 70px 40px;
   margin: 3rem;
