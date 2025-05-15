@@ -3,7 +3,7 @@
 @import "./visit.css";
 
 :root {
-  --pri-text-family: "DM Sans";
+  --pri-font-size: 20px;
   --galaxy-blue: #0ff;
   --galaxy-violet: #ee82ee;
 }
@@ -13,30 +13,28 @@
   margin: 0;
 }
 
-h1,
-h2,
-body,
-button {
+body {
   font-family: "DM Sans";
 }
 
 h1 {
   font-size: 25px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: var(--pri-font-size);
   font-weight: 400;
   padding-bottom: 5px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: var(--pri-font-size);
 }
 
 p {
-  font-size: 20px;
+  font-size: var(--pri-font-size);
   font-weight: 270;
 }
 button {
@@ -85,7 +83,7 @@ footer {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .footer-info {

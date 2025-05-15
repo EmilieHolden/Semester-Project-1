@@ -10,7 +10,7 @@
   color: #000000;
   background-color: #aeaed6;
   max-width: 430px;
-  padding: 20px;
+  padding: 40px 40px 70px 40px;
 }
 
 .visit-img {
@@ -21,7 +21,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px 40px 70px 40px;
   gap: 20px;
 }
 
@@ -52,9 +52,15 @@
     gap: 0;
   }
 
+  .hours-container {
+    padding: 20px;
+    margin: 0;
+  }
+
   .visit-content {
     max-width: fit-content;
     margin: 0 auto;
+    padding: 30px;
   }
 
   .location-content {

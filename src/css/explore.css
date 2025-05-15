@@ -1,27 +1,31 @@
-.explore-container {
+.explore-exhib-container {
   background-color: #fff;
   max-width: fit-content;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 40px 70px 40px;
 }
 
-.explore-content {
+.explore-exhib-content {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
-.explore-text-img {
+.explore-exhib-text-img {
   max-width: 350px;
 }
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
-  .explore-content {
+  .explore-exhib-content {
     flex-direction: column;
   }
 
-  .explore-text-img {
+  .explore-exhib-text-img {
     max-width: 300px;
+  }
+
+  .explore-exhib-container {
+    padding: 40px;
   }
 }
