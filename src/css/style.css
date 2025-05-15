@@ -29,7 +29,8 @@ h2 {
   padding-bottom: 5px;
 }
 
-h3 {
+h3,
+header {
   font-size: var(--pri-font-size);
 }
 
