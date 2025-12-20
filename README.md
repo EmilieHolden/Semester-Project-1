@@ -16,8 +16,9 @@ Link to live demo: https://emilieholden.github.io/Semester-Project-1/
 
 Follow these steps to get a copy of the project running locally: 
 
-- Clone the repository: git clone EmilieHolden/Semester-Project-1
-- Open the repository: cd html-css-emilie-holden.git
+- Open Terminal.
+- Change the current working directory to the location where you want the cloned directory.
+- Clone the repository: git clone https://github.com/EmilieHolden/Semester-Project-1.git
 - Run Live Server
 
 ### Contact
